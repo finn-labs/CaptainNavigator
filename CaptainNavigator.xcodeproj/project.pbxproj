@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB53AC6220458184000C1ADD /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB53AC6120458184000C1ADD /* AppNavigator.swift */; };
+		CB53AC64204587FC000C1ADD /* NotificationsNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB53AC63204587FC000C1ADD /* NotificationsNavigator.swift */; };
 		CB61039F20440DEB003106F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61039E20440DEB003106F6 /* AppDelegate.swift */; };
-		CB6103A120440DEB003106F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103A020440DEB003106F6 /* ViewController.swift */; };
-		CB6103A420440DEB003106F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6103A220440DEB003106F6 /* Main.storyboard */; };
 		CB6103A620440DEB003106F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6103A520440DEB003106F6 /* Assets.xcassets */; };
 		CB6103A920440DEB003106F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6103A720440DEB003106F6 /* LaunchScreen.storyboard */; };
+		CB6103B22044272B003106F6 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103B12044272B003106F6 /* Navigator.swift */; };
+		CB6103B720442762003106F6 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103B620442762003106F6 /* Factory.swift */; };
+		CB6103BC2044279B003106F6 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103BB2044279B003106F6 /* Database.swift */; };
+		CB6103BE204427B8003106F6 /* CaptainDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103BD204427B8003106F6 /* CaptainDatabase.swift */; };
+		CB6103C2204427FF003106F6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103C1204427FF003106F6 /* TabBarController.swift */; };
+		CB6103C4204429CF003106F6 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103C3204429CF003106F6 /* ViewControllerFactory.swift */; };
+		CB6103C720442A1C003106F6 /* MarketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103C620442A1C003106F6 /* MarketsViewController.swift */; };
+		CB6103CA20442A4D003106F6 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103C920442A4D003106F6 /* NotificationsViewController.swift */; };
+		CB6103CD20442A71003106F6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103CC20442A71003106F6 /* ProfileViewController.swift */; };
+		CB6103D020442B67003106F6 /* AdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103CF20442B67003106F6 /* AdViewController.swift */; };
+		CB6103D2204432B0003106F6 /* MarketsNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103D1204432B0003106F6 /* MarketsNavigator.swift */; };
+		CB6103D420443796003106F6 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6103D320443796003106F6 /* NavigationController.swift */; };
+		CBBF34502057E07D00C0378E /* WeakObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF344F2057E07D00C0378E /* WeakObserver.swift */; };
+		CBDDF8AA204549CC0080EA92 /* AuthenticationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDDF8A9204549CC0080EA92 /* AuthenticationObserver.swift */; };
+		CBEC3AE420443CD000FB2A08 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC3AE320443CD000FB2A08 /* DependencyContainer.swift */; };
+		CBEC3AE82044464B00FB2A08 /* UtilityFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC3AE72044464B00FB2A08 /* UtilityFactory.swift */; };
+		CBF758A520444CC50089DC65 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758A420444CC50089DC65 /* SearchViewController.swift */; };
+		CBF758A920444D5A0089DC65 /* Ad.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758A820444D5A0089DC65 /* Ad.swift */; };
+		CBF758AB20444E460089DC65 /* MarketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758AA20444E460089DC65 /* MarketsView.swift */; };
+		CBF758AE204455BE0089DC65 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758AD204455BE0089DC65 /* ContainerViewController.swift */; };
+		CBF758B02044564C0089DC65 /* ProfileNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758AF2044564C0089DC65 /* ProfileNavigator.swift */; };
+		CBF758B3204457E60089DC65 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758B2204457E60089DC65 /* LoginViewController.swift */; };
+		CBF758B520445A600089DC65 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758B420445A600089DC65 /* ProfileView.swift */; };
+		CBF758B720453F6A0089DC65 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758B620453F690089DC65 /* LoginView.swift */; };
+		CBF758B9204540480089DC65 /* LoginNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758B8204540480089DC65 /* LoginNavigator.swift */; };
+		CBF758BD204548100089DC65 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758BC204548100089DC65 /* AuthenticationService.swift */; };
+		CBF758BF204548560089DC65 /* CaptainAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF758BE204548560089DC65 /* CaptainAuthenticationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB53AC6120458184000C1ADD /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
+		CB53AC63204587FC000C1ADD /* NotificationsNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsNavigator.swift; sourceTree = "<group>"; };
 		CB61039B20440DEB003106F6 /* CaptainNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptainNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB61039E20440DEB003106F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB6103A020440DEB003106F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB6103A320440DEB003106F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6103A520440DEB003106F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6103A820440DEB003106F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6103AA20440DEB003106F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6103B12044272B003106F6 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		CB6103B620442762003106F6 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		CB6103BB2044279B003106F6 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		CB6103BD204427B8003106F6 /* CaptainDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptainDatabase.swift; sourceTree = "<group>"; };
+		CB6103C1204427FF003106F6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CB6103C3204429CF003106F6 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		CB6103C620442A1C003106F6 /* MarketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsViewController.swift; sourceTree = "<group>"; };
+		CB6103C920442A4D003106F6 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		CB6103CC20442A71003106F6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CB6103CF20442B67003106F6 /* AdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
+		CB6103D1204432B0003106F6 /* MarketsNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsNavigator.swift; sourceTree = "<group>"; };
+		CB6103D320443796003106F6 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		CBBF344F2057E07D00C0378E /* WeakObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakObserver.swift; sourceTree = "<group>"; };
+		CBDDF8A9204549CC0080EA92 /* AuthenticationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationObserver.swift; sourceTree = "<group>"; };
+		CBEC3AE320443CD000FB2A08 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		CBEC3AE72044464B00FB2A08 /* UtilityFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFactory.swift; sourceTree = "<group>"; };
+		CBF758A420444CC50089DC65 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CBF758A820444D5A0089DC65 /* Ad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ad.swift; sourceTree = "<group>"; };
+		CBF758AA20444E460089DC65 /* MarketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsView.swift; sourceTree = "<group>"; };
+		CBF758AD204455BE0089DC65 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		CBF758AF2044564C0089DC65 /* ProfileNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigator.swift; sourceTree = "<group>"; };
+		CBF758B2204457E60089DC65 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CBF758B420445A600089DC65 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CBF758B620453F690089DC65 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CBF758B8204540480089DC65 /* LoginNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigator.swift; sourceTree = "<group>"; };
+		CBF758BC204548100089DC65 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		CBF758BE204548560089DC65 /* CaptainAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptainAuthenticationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +89,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB53AC5F204560BD000C1ADD /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				CB6103D320443796003106F6 /* NavigationController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		CB53AC60204560ED000C1ADD /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC3AE320443CD000FB2A08 /* DependencyContainer.swift */,
+				CB6103B0204426CE003106F6 /* Navigation */,
+				CB6103B52044274B003106F6 /* Factories */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
 		CB61039220440DEB003106F6 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +126,167 @@
 		CB61039D20440DEB003106F6 /* CaptainNavigator */ = {
 			isa = PBXGroup;
 			children = (
+				CBF758A620444D080089DC65 /* Library */,
+				CB6103BF204427D7003106F6 /* AppDelegate */,
+				CB6103C5204429FF003106F6 /* Markets */,
+				CB6103C820442A39003106F6 /* Notifications */,
+				CB6103CB20442A60003106F6 /* Profile */,
+				CBF758BA204542F30089DC65 /* Supporting Files */,
+			);
+			path = CaptainNavigator;
+			sourceTree = "<group>";
+		};
+		CB6103B0204426CE003106F6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CB6103B12044272B003106F6 /* Navigator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		CB6103B52044274B003106F6 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				CB6103B620442762003106F6 /* Factory.swift */,
+				CBEC3AE72044464B00FB2A08 /* UtilityFactory.swift */,
+				CB6103C3204429CF003106F6 /* ViewControllerFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		CB6103BA20442787003106F6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				CB6103BB2044279B003106F6 /* Database.swift */,
+				CB6103BD204427B8003106F6 /* CaptainDatabase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		CB6103BF204427D7003106F6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
 				CB61039E20440DEB003106F6 /* AppDelegate.swift */,
-				CB6103A020440DEB003106F6 /* ViewController.swift */,
-				CB6103A220440DEB003106F6 /* Main.storyboard */,
+				CB53AC6120458184000C1ADD /* AppNavigator.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CB6103C0204427EB003106F6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CB6103C1204427FF003106F6 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CB6103C5204429FF003106F6 /* Markets */ = {
+			isa = PBXGroup;
+			children = (
+				CBF758A320444CAD0089DC65 /* Search */,
+				CB6103C620442A1C003106F6 /* MarketsViewController.swift */,
+				CBF758AA20444E460089DC65 /* MarketsView.swift */,
+				CB6103D1204432B0003106F6 /* MarketsNavigator.swift */,
+			);
+			path = Markets;
+			sourceTree = "<group>";
+		};
+		CB6103C820442A39003106F6 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				CB6103C920442A4D003106F6 /* NotificationsViewController.swift */,
+				CB53AC63204587FC000C1ADD /* NotificationsNavigator.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		CB6103CB20442A60003106F6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CB6103CC20442A71003106F6 /* ProfileViewController.swift */,
+				CBF758B420445A600089DC65 /* ProfileView.swift */,
+				CBF758AF2044564C0089DC65 /* ProfileNavigator.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CB6103CE20442B54003106F6 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				CB6103CF20442B67003106F6 /* AdViewController.swift */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		CBF758A320444CAD0089DC65 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CBF758A420444CC50089DC65 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CBF758A620444D080089DC65 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CB53AC60204560ED000C1ADD /* Dependencies */,
+				CB53AC5F204560BD000C1ADD /* NavigationController */,
+				CBF758BB204547F60089DC65 /* Authentication */,
+				CBF758B1204457DA0089DC65 /* Login */,
+				CBF758AC204454E30089DC65 /* ContainerView */,
+				CBF758A720444D4C0089DC65 /* Models */,
+				CB6103CE20442B54003106F6 /* Ad */,
+				CB6103C0204427EB003106F6 /* TabBar */,
+				CB6103BA20442787003106F6 /* Database */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		CBF758A720444D4C0089DC65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CBF758A820444D5A0089DC65 /* Ad.swift */,
+				CBBF344F2057E07D00C0378E /* WeakObserver.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CBF758AC204454E30089DC65 /* ContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				CBF758AD204455BE0089DC65 /* ContainerViewController.swift */,
+			);
+			path = ContainerView;
+			sourceTree = "<group>";
+		};
+		CBF758B1204457DA0089DC65 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CBF758B2204457E60089DC65 /* LoginViewController.swift */,
+				CBF758B620453F690089DC65 /* LoginView.swift */,
+				CBF758B8204540480089DC65 /* LoginNavigator.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CBF758BA204542F30089DC65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				CB6103A520440DEB003106F6 /* Assets.xcassets */,
 				CB6103A720440DEB003106F6 /* LaunchScreen.storyboard */,
 				CB6103AA20440DEB003106F6 /* Info.plist */,
 			);
-			path = CaptainNavigator;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBF758BB204547F60089DC65 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CBF758BC204548100089DC65 /* AuthenticationService.swift */,
+				CBF758BE204548560089DC65 /* CaptainAuthenticationService.swift */,
+				CBDDF8A9204549CC0080EA92 /* AuthenticationObserver.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +350,6 @@
 			files = (
 				CB6103A920440DEB003106F6 /* LaunchScreen.storyboard in Resources */,
 				CB6103A620440DEB003106F6 /* Assets.xcassets in Resources */,
-				CB6103A420440DEB003106F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +360,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6103A120440DEB003106F6 /* ViewController.swift in Sources */,
+				CBF758B3204457E60089DC65 /* LoginViewController.swift in Sources */,
+				CBF758AB20444E460089DC65 /* MarketsView.swift in Sources */,
+				CB6103CA20442A4D003106F6 /* NotificationsViewController.swift in Sources */,
+				CBF758B9204540480089DC65 /* LoginNavigator.swift in Sources */,
+				CBDDF8AA204549CC0080EA92 /* AuthenticationObserver.swift in Sources */,
+				CB6103D020442B67003106F6 /* AdViewController.swift in Sources */,
+				CBF758B720453F6A0089DC65 /* LoginView.swift in Sources */,
+				CB6103C2204427FF003106F6 /* TabBarController.swift in Sources */,
+				CB6103D2204432B0003106F6 /* MarketsNavigator.swift in Sources */,
+				CB53AC6220458184000C1ADD /* AppNavigator.swift in Sources */,
+				CBEC3AE82044464B00FB2A08 /* UtilityFactory.swift in Sources */,
+				CBF758B02044564C0089DC65 /* ProfileNavigator.swift in Sources */,
+				CBF758BF204548560089DC65 /* CaptainAuthenticationService.swift in Sources */,
+				CBEC3AE420443CD000FB2A08 /* DependencyContainer.swift in Sources */,
+				CB6103C4204429CF003106F6 /* ViewControllerFactory.swift in Sources */,
+				CBBF34502057E07D00C0378E /* WeakObserver.swift in Sources */,
+				CB6103D420443796003106F6 /* NavigationController.swift in Sources */,
 				CB61039F20440DEB003106F6 /* AppDelegate.swift in Sources */,
+				CB53AC64204587FC000C1ADD /* NotificationsNavigator.swift in Sources */,
+				CB6103CD20442A71003106F6 /* ProfileViewController.swift in Sources */,
+				CBF758A920444D5A0089DC65 /* Ad.swift in Sources */,
+				CBF758AE204455BE0089DC65 /* ContainerViewController.swift in Sources */,
+				CBF758A520444CC50089DC65 /* SearchViewController.swift in Sources */,
+				CB6103B22044272B003106F6 /* Navigator.swift in Sources */,
+				CB6103C720442A1C003106F6 /* MarketsViewController.swift in Sources */,
+				CB6103BE204427B8003106F6 /* CaptainDatabase.swift in Sources */,
+				CB6103BC2044279B003106F6 /* Database.swift in Sources */,
+				CBF758B520445A600089DC65 /* ProfileView.swift in Sources */,
+				CB6103B720442762003106F6 /* Factory.swift in Sources */,
+				CBF758BD204548100089DC65 /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB6103A220440DEB003106F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB6103A320440DEB003106F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CB6103A720440DEB003106F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,7 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 479AB4K3T6;
-				INFOPLIST_FILE = CaptainNavigator/Info.plist;
+				INFOPLIST_FILE = "CaptainNavigator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.axldyb.CaptainNavigator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 479AB4K3T6;
-				INFOPLIST_FILE = CaptainNavigator/Info.plist;
+				INFOPLIST_FILE = "CaptainNavigator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.axldyb.CaptainNavigator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
